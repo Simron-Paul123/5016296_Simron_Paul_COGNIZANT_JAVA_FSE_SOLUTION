@@ -1,0 +1,140 @@
+1.	Understand Sorting Algorithms:
+o	Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+
+
+1. Bubble Sort
+-----------------------------------------------
+
+Description:
+
+Bubble Sort is a simple comparison-based sorting algorithm. 
+It repeatedly steps through the list, compares adjacent elements, 
+and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+
+Time Complexity:
+----------------------------------
+Best case: O(n)
+Average case: o(n^2)
+Worst case: o(n^2)
+Space Complexity: O(1) (in-place sorting)
+
+Characteristics:
+--------------------------------
+->Simple to implement
+->Inefficient for large datasets
+->Stable (does not change the relative order of equal elements)
+Example:
+---------------------
+Initial: [5, 1, 4, 2, 8]
+Pass 1: [1, 4, 2, 5, 8]
+Pass 2: [1, 2, 4, 5, 8]
+Pass 3: [1, 2, 4, 5, 8]
+Sorted: [1, 2, 4, 5, 8]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Insertion Sort
+---------------------------------------
+
+Description:
+
+Insertion Sort builds the final sorted array one item at a time.
+ It takes an element from the unsorted portion of the array and inserts it into its correct position in the sorted portion.
+
+Time Complexity:
+----------------------------
+Best case: O(n)
+Average case: O(n^2)
+Worst case: O(n^2)
+Space Complexity: O(1) (in-place sorting)
+Characteristics:
+-------------------------
+->Efficient for small datasets
+->Adaptive (efficient for partially sorted arrays)
+->Stable
+Example:
+----------------------
+Initial: [5, 1, 4, 2, 8]
+Pass 1: [1, 5, 4, 2, 8]
+Pass 2: [1, 4, 5, 2, 8]
+Pass 3: [1, 2, 4, 5, 8]
+Sorted: [1, 2, 4, 5, 8]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Quick Sort
+----------------------------
+
+Description:
+
+Quick Sort is a divide-and-conquer algorithm. It selects a "pivot" 
+element from the array and partitions the other elements into two sub-arrays, 
+according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
+
+Time Complexity:
+----------------------------
+Best case: O(nlogn)
+Average case: O(nlogn)
+Worst case: O(n^2)
+Space Complexity: O(logn) (in-place, but not stable)
+
+Characteristics:
+------------------------------
+->Efficient for large datasets
+->Not stable (relative order of equal elements may change)
+->Pivot selection affects performance
+
+Example:
+----------------------
+Initial: [5, 1, 4, 2, 8] (pivot=4)
+Step 1: [1, 2, 4, 5, 8] (pivot=2)
+Step 2: [1, 2, 4, 5, 8] (pivot=5)
+Sorted: [1, 2, 4, 5, 8]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Merge Sort
+---------------------------
+
+Description:
+Merge Sort is a divide-and-conquer algorithm. It divides the unsorted list into two approximately 
+equal halves, sorts each half recursively, and then merges the two sorted halves to produce the final sorted list.
+
+Time Complexity:
+-------------------------
+
+Best case: O(nlogn)
+Average case: O(nlogn)
+Worst case: O(nlogn)
+Space Complexity: O(n) (requires additional memory for merging)
+
+Characteristics:
+--------------------------------
+->Stable
+->Not in-place (requires additional memory)
+->Good for sorting linked lists and large datasets
+Example:
+---------------
+Initial: [5, 1, 4, 2, 8]
+Step 1: [5, 1, 4] [2, 8]
+Step 2: [5] [1, 4] [2] [8]
+Step 3: [1, 4, 5] [2, 8]
+Sorted: [1, 2, 4, 5, 8]
+
+Each of these sorting algorithms has its own strengths and weaknesses, 
+and the choice of which to use depends on the specific requirements of the problem, such as the size of the dataset, 
+the nature of the data, and whether or not the sort needs to be stable.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.	Analysis:
+    o	Compare the performance (time complexity) of Bubble Sort and Quick Sort.
+    o	Discuss why Quick Sort is generally preferred over Bubble Sort.
+
+
+Bubble Sort: O(n^2) in the worst case.
+Quick Sort: O(n log n) on average, O(n^2) in the worst case but generally faster due to better cache performance.
+
+Preferred Algorithm
+------------------------------
+Quick Sort is generally preferred due to its efficiency and performance on average cases.
+
+
+
+
+
+

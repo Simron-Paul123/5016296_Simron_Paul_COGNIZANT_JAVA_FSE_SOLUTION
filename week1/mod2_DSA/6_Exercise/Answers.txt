@@ -1,0 +1,29 @@
+Explain linear search and binary search algorithms.
+-------------------------------------------------------------------------
+Linear search:
+----------------------
+Also called sequential search, this algorithm compares each element in a list or array to the key being searched, 
+one by one, until the target is found. It's best for smaller datasets and can work on both sorted and unsorted arrays. 
+Linear search has a time complexity of O(n) and may require up to n comparisons, where n is the number of elements in the array.
+
+Binary Search:
+------------------------------
+This algorithm is used to find a value in a sorted array by repeatedly halving the search interval. 
+It compares the key to the middle element of the array, and if the middle element doesn't match, it eliminates half of the remaining search space. 
+Binary search is more efficient than linear search, especially for large datasets, and has a time complexity of O(log n). It requires at most log2(n+1) comparisons
+
+
+Analysis
+------------------------------------
+
+Linear Search: O(n) in the worst case.
+Binary Search: O(log n) in the worst case, but requires sorted data.
+
+Analysis
+----------------------------
+Linear Search: O(n)
+Binary Search: O(log n)
+
+Suitable Algorithm
+----------------------------------
+Binary search is more efficient but requires sorted data. Use binary search for large, sorted datasets and linear search for small or unsorted datasets.
