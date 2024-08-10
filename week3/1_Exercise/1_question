@@ -1,0 +1,14 @@
+Exercise 1: Employee Management System - Overview and Setup
+Business Scenario: 
+You are developing an employee management system that will manage employee data, departments, and their relationships.
+Instructions:
+1.	Creating a Spring Boot Project:
+o	Initialize a new Spring Boot project named EmployeeManagementSystem.
+o	Add dependencies: Spring Data JPA, H2 Database, Spring Web, Lombok.
+2.	Configuring Application Properties:
+o	Configure application.properties for H2 database connection.
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa	
+spring.datasource.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
