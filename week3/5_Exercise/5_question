@@ -1,0 +1,10 @@
+Exercise 5: Employee Management System - Defining Query Methods
+Business Scenario: 
+Enhance your repository to support custom queries.
+Instructions:
+1.	Defining Query Methods:
+o	Use keywords in method names to create custom query methods.
+o	Implement custom query methods using the @Query annotation.
+2.	Named Queries:
+o	Define and execute named queries with @NamedQuery and @NamedQueries.
+
