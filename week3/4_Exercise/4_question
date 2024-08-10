@@ -1,0 +1,7 @@
+Exercise 4: Employee Management System - Implementing CRUD Operations
+Business Scenario: 
+Implement CRUD operations for managing employees and departments.
+Instructions:
+1.	Basic CRUD Operations:
+o	Use JpaRepository methods to create, read, update, and delete employees and departments.
+o	Implement RESTful endpoints for these operations using EmployeeController and DepartmentController.
