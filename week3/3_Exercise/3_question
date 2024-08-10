@@ -1,0 +1,9 @@
+Exercise 3: Employee Management System - Creating Repositories
+Business Scenario: 
+Create repositories for Employee and Department entities to perform CRUD operations.
+Instructions:
+1.	Overview of Spring Data Repositories:
+o	Learn the benefits of using Spring Data repositories.
+2.	Creating Repositories:
+o	Create EmployeeRepository and DepartmentRepository interfaces extending JpaRepository.
+o	Define derived query methods in these repositories.
