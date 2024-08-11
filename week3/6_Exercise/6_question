@@ -1,0 +1,9 @@
+Exercise 6: Employee Management System - Implementing Pagination and Sorting
+Business Scenario: 
+Add pagination and sorting capabilities to your employee search functionality.
+Instructions:
+1.	Pagination:
+o	Implement pagination for the employee list using Page and Pageable.
+2.	Sorting:
+o	Add sorting functionality to your queries.
+o	Combine pagination and sorting in your search endpoint.
