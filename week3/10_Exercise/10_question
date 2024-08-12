@@ -1,0 +1,10 @@
+Exercise 10: Employee Management System - Hibernate-Specific Features
+Business Scenario: 
+Leverage Hibernate-specific features to enhance your application's performance and capabilities.
+Instructions:
+1.	Hibernate-Specific Annotations:
+o	Use Hibernate-specific annotations to customize entity mappings.
+2.	Configuring Hibernate Dialect and Properties:
+o	Configure Hibernate dialect and properties for optimal performance.
+3.	Batch Processing:
+o	Implement batch processing with Hibernate for bulk operations.
