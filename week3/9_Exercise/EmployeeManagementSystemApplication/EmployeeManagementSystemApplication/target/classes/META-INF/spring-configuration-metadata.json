@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.primary",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.Employee.config.PrimaryDataSourceConfig",
+      "sourceMethod": "public javax.sql.DataSource primaryDataSource() "
+    },
+    {
+      "name": "spring.datasource.secondary",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.Employee.config.SecondaryDataSourceConfig",
+      "sourceMethod": "public javax.sql.DataSource secondaryDataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
