@@ -1,0 +1,11 @@
+Exercise 2: Online Bookstore - Creating Basic REST Controllers
+Business Scenario: 
+Implement RESTful endpoints to manage books.
+Instructions:
+1.	Create Book Controller:
+o	Define a BookController class with request mappings for /books.
+2.	Handle HTTP Methods:
+o	Implement methods to handle GET, POST, PUT, and DELETE requests.
+3.	Return JSON Responses:
+o	Ensure the controller returns JSON responses.
+o	Define the Book entity with attributes like id, title, author, price, and isbn.
