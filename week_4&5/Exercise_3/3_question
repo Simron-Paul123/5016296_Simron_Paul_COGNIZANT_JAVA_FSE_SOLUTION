@@ -1,0 +1,8 @@
+Exercise 3: Online Bookstore - Handling Path Variables and Query Parameters
+Business Scenario: 
+Enhance the book management endpoints to handle dynamic URLs and query parameters.
+Instructions:
+1.	Path Variables:
+o	Implement an endpoint to fetch a book by its ID using a path variable.
+2.	Query Parameters:
+o	Implement an endpoint to filter books based on query parameters like title and author.
