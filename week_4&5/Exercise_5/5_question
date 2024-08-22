@@ -1,0 +1,8 @@
+Exercise 5: Online Bookstore - Customizing Response Status and Headers
+Business Scenario: 
+Customize the HTTP response status and headers for the book management endpoints.
+Instructions:
+1.	Response Status:
+o	Use @ResponseStatus to customize HTTP status codes for your endpoints.
+2.	Custom Headers:
+o	Add custom headers to the response using ResponseEntity.
