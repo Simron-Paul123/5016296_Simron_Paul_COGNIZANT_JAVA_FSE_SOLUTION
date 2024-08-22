@@ -1,0 +1,9 @@
+
+Exercise 4: Online Bookstore - Processing Request Body and Form Data
+Business Scenario: 
+Create endpoints to accept and process JSON request bodies and form data for customer registrations.
+Instructions:
+1.	Request Body:
+o	Implement a POST endpoint to create a new customer by accepting a JSON request body.
+2.	Form Data:
+o	Implement an endpoint to process form data for customer registrations.
