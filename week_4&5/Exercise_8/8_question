@@ -1,0 +1,10 @@
+Exercise 8: Online Bookstore - Implementing CRUD Operations
+Business Scenario: 
+Implement Create, Read, Update, and Delete operations for the Book and Customer entities.
+Instructions:
+1.	CRUD Endpoints:
+o	Implement endpoints for creating, reading, updating, and deleting books and customers.
+2.	Validating Input Data:
+o	Use validation annotations like @NotNull, @Size, and @Min to validate input data.
+3.	Optimistic Locking:
+o	Implement optimistic locking for concurrent updates using JPA versioning.
