@@ -1,0 +1,7 @@
+Exercise 6: Online Bookstore - Exception Handling in REST Controllers
+Business Scenario: 
+Implement a global exception handling mechanism for the bookstore RESTful services.
+Instructions:
+1.	Global Exception Handler:
+o	Create a GlobalExceptionHandler class using @ControllerAdvice.
+o	Define methods to handle various exceptions and return appropriate HTTP status codes.
