@@ -1,0 +1,10 @@
+Exercise 7: Online Bookstore - Introduction to Data Transfer Objects (DTOs)
+Business Scenario: 
+Use DTOs to transfer data between the client and server for books and customers.
+Instructions:
+1.	Create DTOs:
+o	Define BookDTO and CustomerDTO classes.
+2.	Mapping Entities to DTOs:
+o	Use a library like MapStruct or ModelMapper to map entities to DTOs and vice versa.
+3.	Custom Serialization/Deserialization:
+o	Customize JSON serialization and deserialization using Jackson annotations.
