@@ -1,0 +1,10 @@
+Exercise 11: Online Bookstore - Integrating Spring Boot Actuator
+Business Scenario: 
+Monitor and manage your bookstore's RESTful services using Spring Boot Actuator.
+Instructions:
+1.	Add Actuator Dependency:
+o	Include the Spring Boot Actuator dependency in your project.
+2.	Expose Actuator Endpoints:
+o	Enable and customize Actuator endpoints.
+3.	Custom Metrics:
+o	Expose custom metrics for monitoring your application.
