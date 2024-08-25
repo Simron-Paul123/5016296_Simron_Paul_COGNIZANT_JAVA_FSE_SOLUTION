@@ -1,8 +1,0 @@
-Exercise 10: Online Bookstore - Configuring Content Negotiation
-Business Scenario: 
-Support different media types (JSON, XML) for your bookstore's RESTful services.
-Instructions:
-1.	Content Negotiation:
-o	Configure Spring Boot to support content negotiation.
-2.	Accept Header:
-o	Implement logic to produce and consume different media types based on the Accept header.
