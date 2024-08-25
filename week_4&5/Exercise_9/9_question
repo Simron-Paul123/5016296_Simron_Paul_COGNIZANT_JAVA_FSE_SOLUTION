@@ -1,0 +1,8 @@
+Exercise 9: Online Bookstore - Understanding HATEOAS
+Business Scenario: 
+Enhance your REST API to follow HATEOAS principles for navigation through resources.
+Instructions:
+1.	Add Links to Resources:
+o	Use Spring HATEOAS to add links to resources in your API responses.
+2.	Hypermedia-Driven APIs:
+o	Build and consume hypermedia-driven APIs.
