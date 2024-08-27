@@ -1,0 +1,10 @@
+Exercise 14: Online Bookstore - Integration Testing for REST Services
+Business Scenario: 
+Write integration tests for your bookstore's RESTful services.
+Instructions:
+1.	Spring Test:
+o	Set up Spring Test for integration testing.
+2.	MockMvc Integration:
+o	Use MockMvc for end-to-end testing of your REST endpoints.
+3.	Database Integration:
+o	Include database integration in your tests using an in-memory database like H2.
