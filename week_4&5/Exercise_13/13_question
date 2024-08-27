@@ -1,0 +1,10 @@
+Exercise 13: Online Bookstore - Unit Testing REST Controllers
+Business Scenario: 
+Write unit tests for your bookstore's REST controllers using JUnit and Mockito.
+Instructions:
+1.	JUnit Setup:
+o	Set up JUnit and Mockito in your project.
+2.	MockMvc:
+o	Use MockMvc to write unit tests for your REST controllers.
+3.	Test Coverage:
+o	Ensure comprehensive test coverage and follow best practices for testing.
