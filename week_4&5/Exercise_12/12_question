@@ -1,0 +1,10 @@
+Exercise 12: Online Bookstore - Securing RESTful Endpoints with Spring Security
+Business Scenario: 
+Secure your bookstore's RESTful endpoints using Spring Security with JWT-based authentication.
+Instructions:
+1.	Add Spring Security:
+o	Integrate Spring Security into your project.
+2.	JWT Authentication:
+o	Implement JWT-based authentication and authorization.
+3.	CORS Handling:
+o	Configure CORS to handle cross-origin requests.
