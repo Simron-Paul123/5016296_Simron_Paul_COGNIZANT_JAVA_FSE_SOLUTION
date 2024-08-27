@@ -1,0 +1,10 @@
+Scenario 15: Online Bookstore - API Documentation with Swagger
+Business Scenario: 
+Document your bookstore's REST APIs using Swagger and Springdoc.
+Instructions:
+1.	Add Swagger Dependency:
+o	Include Swagger or Springdoc dependencies in your project.
+2.	Document Endpoints:
+o	Annotate your REST controllers and methods to generate API documentation.
+3.	API Documentation:
+o	Generate and review the API documentation using Swagger UI or Springdoc UI.
